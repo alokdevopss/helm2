@@ -105,7 +105,7 @@ apt-get -y upgrade && \
 
 # Copying setting file & adding some content to be served by apache
 
-COPY data/httpd.conf /etc/apache2/httpd.conf
+# COPY data/httpd.conf /etc/apache2/httpd.conf
 
 # Defining a command to be run after the docker is up
 
