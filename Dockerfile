@@ -97,11 +97,11 @@ apt-get update && \
 
 apt-get -y upgrade && \
 
-apt-get install -y apache2 && \
+# apt-get install -y apache2 && \
 
 # adding some content for Apache server
 
-RUN echo "This is a test docker" > /var/www/html/index.html
+# RUN echo "This is a test docker" > /var/www/html/index.html
 
 # Copying setting file & adding some content to be served by apache
 
